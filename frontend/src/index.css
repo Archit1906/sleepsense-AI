@@ -1,0 +1,5 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+body{background:radial-gradient(circle at 20% 0%,#1e1b4b 0,#0b1026 45%,#070b1a 100%);color:#e2e8f0;font-family:Inter,system-ui,sans-serif;min-height:100vh}
+.glass{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);backdrop-filter:blur(10px);border-radius:1rem}
+.btn{background:linear-gradient(90deg,#06b6d4,#6366f1);padding:.5rem 1rem;border-radius:.6rem;font-weight:600;color:#fff}
+.btn:disabled{opacity:.5}
